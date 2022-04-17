@@ -39,3 +39,9 @@
 8) Write a shell script that receives a number (n) followed by any number of files as command line arguments. The script will display all the words with the frequency greater than n from each file.
 
 9) Write a shell script that receives file names as command line arguments. Display the frequency of the even numbers in each file.
+
+### Extra
+
+1) Write a shell script that for every file found recursively in a given directory, changes the permissions from 755 to 744. Ask the user for confirmation for each file.
+
+2) Write a shell script that displays the number of members of each group given as a command line argument, or -1 if the group does not exist. Sort the output descendingly by the number of members in each group. The /etc/group file contains the information about group membership.
