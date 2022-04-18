@@ -10,7 +10,7 @@
 
 5) Write a script that receives dangerous program names as command line arguments. The script will monitor all the processes in the system, and whenever a program known to be dangerous is run, the script will kill it and display a message.
 
-6) Find recursively in a directory, all the files that have write permissions for everyone. Display their names and the permissions before and after removing the write permission for everybody. You will need to use chmod's symbolic permissions mode instead of the octal mode. See the chmod manual page for details.
+6) Find recursively in a directory all the files that have write permissions for everyone. Display their names and the permissions before and after removing the write permission for everybody. You will need to use chmod's symbolic permissions mode instead of the octal mode. See the chmod manual page for details.
 
 7) Consider a file containing a username on each line. Generate a comma-separated string with the email addresses of the users that exist. The email address will be obtained by appending "@gmail.com" at the end of each username. Make sure the generated string does not end in a comma.
 
@@ -42,6 +42,6 @@
 
 ### Extra
 
-1) Write a shell script that for every file found recursively in a given directory, changes the permissions from 755 to 744. Ask the user for confirmation for each file.
+1) Find recursively in a directory all the files that have their permissions set to 755. Display a prompt and ask the user if they would like to set the permissions of the file to 744. Do this for every file.
 
 2) Write a shell script that displays the number of members of each group given as a command line argument, or -1 if the group does not exist. Sort the output descendingly by the number of members in each group. The /etc/group file contains the information about group membership.
